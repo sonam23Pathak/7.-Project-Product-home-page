@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Poppins";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+nav img:nth-of-type(1) {
+    width: 100px;
+    margin-left: 100px;
+}
+
+.nav-items {
+    display: flex;
+
+}
+
+.nav-items h5 {
+    margin: 25px;
+    font-size: 15px;
+    font-family: "Poppins";
+
+}
+
+.active-item {
+    color: #FE5E35;
+}
+
+.active-item:hover {
+    color: #0a0909;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+}
+
+.left-section h3 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 2rem;
+}
+
+.left-section h3 img {
+    margin-top: 2rem;
+    width: 40px;
+}
+
+.left-section h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 100px;
+
+}
+
+.sub-headlines {
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.sub-headlines .sub-headline {
+    margin: 15px;
+}
+
+.sub-headline::before {
+    content: "+";
+    color: #fff;
+    background-color: #FE5E35;
+    align-items: center;
+    border-style: none;
+    padding: 10px;
+    border-radius: 100%;
+    height: 15px;
+    width: 30px;
+    margin: 5px;
+}
+
+.text {
+    font-size: 15px;
+    color: #808080;
+    font-weight: 100;
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 750px;
+    height: 50px;
+}
+
+.action-btn {
+    background-color: #FE5E35;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 180px;
+    padding: 15px;
+    border-style: none;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.headphone-div {
+    display: flex;
+}
+
+.headphone-div img:nth-of-type(2) {
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 180px;
+}
+
+.discount {
+    position: absolute;
+    width: 130px;
+    top: 300px;
+    left: -10px;
+}
+
+.discount-content {
+    position: absolute;
+    font-family: "Poppins";
+    top: 340px;
+    left: 26px;
+    color: #fff;
+}
+
+.discount-content h4 {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.discount-content h1 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    position: relative;
+    right: 100px;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.yellow-dot {
+    background-color: #f4f406;
+}
+
+.tomato-dot {
+    background-color: #FE5E35;
+}
+
+.black-dot {
+    background-color: #000000;
+}
+
+.right-section .action-btn {
+    background-color: #FE5E35;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 15px;
+    border-style: none;
+    position: relative;
+    top: -10px;
+    left: 50px;
+}
